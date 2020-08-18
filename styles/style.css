@@ -132,12 +132,10 @@ margin-top: auto;
         overflow: scroll;
     }
     .left {
-        flex: 1;
         padding: 32px;
         border-bottom: 1px solid #2b2b2b;
     }
     .right {
-        flex: 3;
         padding: 32px;
         overflow: auto;
         border-left: none;
