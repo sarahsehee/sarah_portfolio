@@ -194,19 +194,18 @@ margin-top: auto;
     }
     body {
         height: 100vh;
-        overflow: scroll;
     }
     .name {
         font-size: 40px;
         height: auto;
     }
     .left {
+        flex:none;
         display: block;
-        overflow: hidden;
-    }
-
-    .left_top {
         height: auto;
+    }
+    .left_top, .left_bottom, .right_top, .right_bottom {
+        padding: 24px 32px;
     }
 
     .right {
@@ -214,23 +213,6 @@ margin-top: auto;
         grid-template-rows: 1fr 8fr;
         overflow: scroll;
         border-left: none;
-    }
-    .right_top{
-        padding-top: 0;
-        padding-bottom:0;
-    }
-    .empty {
-        display: none;
-    }
-    .menu {
-        flex-direction: row;
-    }
-    #resume {
-        margin-top: 8px;   
-    }
-    #projects {
-
-        margin-top:8px;
     }
 
 }

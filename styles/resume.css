@@ -21,7 +21,6 @@ h2 {
     flex: auto;
     padding: 16px 4px;
     font-size: 14px;
-    font-weight: bold;
     font-family: 'Space Mono', monospace;
     border-bottom: 1px solid black;
     color: black;
@@ -71,7 +70,6 @@ h4 {
 .tag {
     font-family: 'Space Mono', monospace;
     font-size: 14px;
-    font-weight: bold;
     padding: 6px 16px;
     box-sizing: border-box;
     border-radius: 25px;
