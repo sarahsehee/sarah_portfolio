@@ -10,6 +10,7 @@
     --color-softpink: #F3AFF9;
     --color-blue: #5849FF;
     --color-blue-contrast: #301eff;
+    --color-lightgray: #e4e4e4;
 }
 
 html, body {
@@ -110,7 +111,7 @@ justify-content: space-between;
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
     background-color: black;
-    background-color: var(--color-softpink);
+    background-color: var(--color-lightgray);
 }
 
 .right_bottom::-webkit-scrollbar {
@@ -172,6 +173,10 @@ button {
 .links svg{
     fill: #111213;
     margin-right: 8px;
+}
+
+.github path:hover{
+    fill: blue;
 }
 
 
