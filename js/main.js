@@ -5,27 +5,17 @@ function show(section) {
     /* Button Ids */
     const ButtonProject = document.getElementById("lk_projects");
     const ButtonResume = document.getElementById("lk_resume");
-    /* Right Div
-    const Right = document.getElementById("right_bottom");
-*/
-
 
     if (section === 'resume') {
         Projects.style.display="none";
         Resume.style.display="block";
         ButtonProject.style.color="white";
-        ButtonResume.style.color="var(--color-softpink)";
-        /*
-        Right.style.backgroundColor="var(--color-softpink)";
-        */
+        ButtonResume.style.color="var(--color-coral)";
     }
     else if (section === 'projects') {
         Projects.style.display="block";
         Resume.style.display="none";
-        ButtonProject.style.color="#D9FF6F";
+        ButtonProject.style.color="var(--color-coral)";
         ButtonResume.style.color="white";
-        /*
-        Right.style.backgroundColor="var(--color-highlight)";
-        */
     }
 }

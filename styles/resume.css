@@ -30,6 +30,9 @@ h2 {
 
 /* resume */ 
 
+#resume {
+    display: none;
+}
 
 
 h4 {
@@ -41,7 +44,7 @@ h4 {
 }
 
 .experience_role {
-    color:var(--color-blue);
+    color:var(--color-coral);
 }
 
 .date{
@@ -90,7 +93,7 @@ section div p {
 /* projects */
 
 #projects {
-    display: none;
+    display: block;
 }
 
 .project {

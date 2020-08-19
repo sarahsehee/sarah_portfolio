@@ -8,7 +8,7 @@
     --color-mint: #8FFFE4;
     --color-purple: #7203FF;
     --color-softpink: #f47bff;
-    --color-blue: #5849FF;
+    --color-blue: #68cfff;
     --color-blue-contrast: #301eff;
     --color-lightgray: #f4f4f4;
 }
@@ -19,9 +19,8 @@ html, body {
 
 
 
-
-.white {
-    color:white;
+.highlight {
+    color:var(--color-coral);
 }
 
 body, div, h1, h2, h3, h4, p,span, ul, li,p,button {
@@ -161,11 +160,11 @@ button {
 }
 
 .bttn_projects:hover{
-    color: var(--color-highlight);
+    color: var(--color-coral);
 }
 
 .bttn_resume:hover{
-    color: var(--color-softpink);
+    color: var(--color-coral);
 }
 
 .links {
@@ -220,6 +219,12 @@ margin-top: auto;
         padding: 24px 32px;
     }
 
+    button {
+        font-size: 18px;
+    }
+    .right_top {
+        justify-content: space-around;
+    }
     .right {
         flex: 5;
         grid-template-rows: 1fr 8fr;
