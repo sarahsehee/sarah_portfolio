@@ -74,7 +74,6 @@ h1 {
 .left_top {
     padding: 56px 80px;
     background-color:var(--color-blue);
-    border-bottom: 1px solid black;
     color: black;
 }
 
@@ -107,7 +106,6 @@ justify-content: space-between;
     padding: 112px 80px;
     overflow: scroll;
     box-sizing: border-box;
-    border-left: 1px solid black;
     -ms-overflow-style: none; /* IE and Edge */
     scrollbar-width: none; /* Firefox */
     background-color: black;
