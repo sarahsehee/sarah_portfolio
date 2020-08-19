@@ -8,6 +8,8 @@ function show(section) {
     /* Right Div*/
     const Right = document.getElementById("right_bottom");
 
+
+
     if (section === 'resume') {
         Projects.style.display="none";
         Resume.style.display="block";

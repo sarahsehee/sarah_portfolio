@@ -80,6 +80,9 @@ h1 {
 .left_bottom {
     padding: 80px;
     background-color: white;
+    display: flex;
+flex-direction: column;
+justify-content: space-between;
 }
 
 .right {
@@ -100,7 +103,7 @@ h1 {
 }
 
 .right_bottom {
-    padding: 80px;
+    padding: 112px 80px;
     overflow: scroll;
     box-sizing: border-box;
     border-left: 1px solid black;
@@ -151,11 +154,11 @@ button {
     color: white;
 }
 
-#lk_projects:hover{
-    color: var(--color-softpink);
+.bttn_projects:hover{
+    color: var(--color-highlight);
 }
 
-#lk_resume:hover{
+.bttn_resume:hover{
     color: var(--color-softpink);
 }
 

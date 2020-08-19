@@ -94,7 +94,9 @@ section div p {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    margin-bottom: 32px;
+    padding: 32px 0 48px 0;
+    border-bottom: 1px solid black;
+    cursor: pointer;
 }
 
 .project_title {
