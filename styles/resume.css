@@ -106,7 +106,7 @@ section div p {
 }
 
 .project_tags .tag {
-    background-color: var(--color-skyblue);
+    background-color: black;
 }
 
 .project_company {
