@@ -22,7 +22,7 @@ h2 {
     padding: 16px 4px;
     font-size: 14px;
     font-family: 'Space Mono', monospace;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
     color: black;
     margin-bottom: 24px;
 }
@@ -43,9 +43,6 @@ h4 {
     margin-bottom: 8px;
 }
 
-.experience_role {
-    color:var(--color-coral);
-}
 
 .date{
     font-size: 16px;
@@ -100,9 +97,13 @@ section div p {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 32px 0 48px 0;
-    border-bottom: 1px solid black;
+    padding: 32px 0px;
+    margin-bottom: 24px;
     cursor: pointer;
+}
+
+.project:hover .project_title{
+    text-decoration: underline;
 }
 
 .project_title {

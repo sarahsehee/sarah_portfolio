@@ -1,0 +1,22 @@
+body {
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.wrapper_50 {
+    width: 50%;
+    padding: 80px;
+    background-color: aqua
+}
+
+.wrapper_100 {
+    width: 100%;
+    padding: 80px;
+    background-color: aliceblue;
+}
+
+
+
+/* Project Typography */
