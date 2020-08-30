@@ -53,6 +53,9 @@ h4 {
 
 
 
+
+
+
 .skill {
     margin-bottom: 24px;
 }
@@ -125,3 +128,12 @@ section div p {
     height:88px;
 }
 
+.wip {
+    color: grey;
+    cursor: wait;
+}
+
+
+.wip:hover{
+    text-decoration: none;
+}
