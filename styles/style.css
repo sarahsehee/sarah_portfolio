@@ -10,8 +10,9 @@
     --color-softpink: #f47bff;
     --color-blue: #68cfff;
     --color-blue-contrast: #301eff;
-    --color-lightgray: #f4f4f4;
+    --color-lightgray: #EFF1F5;
     --color-navy: #16324e;
+    --color-darkpurple: #26252d;
     --color-darkgrey: #1b1c1d;
     --color-dustylilac: #7c81a5;
 }
@@ -32,6 +33,7 @@ body, div, h1, h2, h3, h4, p,span, ul, li,p,button,a, img {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    -webkit-font-smoothing: antialiased;
 }
 
 a {
