@@ -1,6 +1,6 @@
 /* Switcher */
 
-.img_30 {
+.hero {
   width: 30%;
   margin: 32px;
 }
@@ -47,4 +47,14 @@
   background-image: url("../images/switcher/signal1_popup.png");
   background-position: center;
   background-repeat: no-repeat;
+}
+
+@media screen and(max-width: 560px) {
+  .prototypes {
+    flex: 1;
+  }
+  .hero {
+    width: 90%;
+    margin: 16px;
+  }
 }

@@ -404,9 +404,5 @@ img {
   .studio-preview img {
     width: 50px;
   }
-
-  .prototypes {
-    flex: 0.5;
-  }
 }
 /*Video*/
