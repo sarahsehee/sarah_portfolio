@@ -1,0 +1,48 @@
+/* Switcher */
+
+.img_30 {
+  width: 30%;
+  margin: 32px;
+}
+
+.img_50 {
+  width: 50%;
+  margin: 16px;
+}
+
+.prototypes {
+  top: 0;
+  margin-bottom: 32px;
+}
+.prototype1 {
+  top: 0;
+  position: relative;
+  width: 230px;
+  padding: 48px;
+  object-fit: contain;
+}
+
+.prototype2 {
+  top: 0;
+  position: relative;
+  width: 50%;
+  margin: 40px;
+  object-fit: contain;
+}
+
+.img_60 {
+  width: 60%;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.img_mobile {
+  width: 240px;
+}
+
+.img_popups {
+  background-size: contain;
+  background-image: url("../images/switcher/signal1_popup.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}

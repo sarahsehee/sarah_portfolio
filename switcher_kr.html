@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Sarah Sehee Lim</title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width,  initial-scale=1" />
+  <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+  <link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="styles/style.css" />
+  <link rel="stylesheet" href="styles/fonts.css" />
+  <link rel="stylesheet" href="styles/project.css" />
+  <link rel="stylesheet" href="styles/images.css" />
+</head>
+
+<body>
+  <header>
+    <a href="index.html">
+      <p>←Back</p>
+    </a>
+    <p>SarahSehee</p>
+  </header>
+  <div class="wrapper_60 flex-column" id="project_intro">
+    <h1>Switcher Timer</h1>
+    <div class="flex-row">
+      <div class="flex2">
+        <h4>Overview</h4>
+        <p>
+          스위처의 주요 지표인 유료 구독 전환율을 높히기 위해 진행한 두 번의
+          스프린트.
+        </p>
+      </div>
+      <div class="flex-column flex1">
+        <h4>Duration</h4>
+        <p>August 2016-September 2016, Feb 2017 - Mar 2017</p>
+      </div>
+    </div>
+  </div>
+  <!-- What is ProtoPie-->
+  <div class="wrapper_100 flex-column center">
+    <img class="img_50" src="images/switcher/1_hero.png" />
+    <div class="text_container flex-column">
+      <p>
+        스위처는 부착형 스마트 컨트롤 하드웨어 제품입니다. 모바일 어플리케이션과
+        블루투스로 연결한 후 조명을 끄고 켜거나, 설정할 수 있는 기능을
+        제공했습니다. <br /><br />
+        스위처의 주 고객은 20대 초반에서 30대 중반이며 1,2인 가구의 거주 형태를
+        띄고 있었습니다.
+      </p>
+    </div>
+  </div>
+  <!-- Why? -->
+  <div class="wrapper_100 flex-column center">
+    <div class="wrapper_60 center">
+      <img src="images/switcher/timer.png" />
+    </div>
+    <div class="text_container">
+      <h2>Then, What is Switcher Timer?</h2>
+      <p>
+        블루투스를 통해 모바일 앱과 스위처가 연결 되어있을 때, 유저는 기기 안에
+        타이머를 생성하고 저장할 수 있습니다. 이렇게 저장하고 난 뒤, 블루투스
+        연결을 끊고 나면 정해진 시간에 타이머가 자동으로 작동하게 됩니다.
+        <br />
+        유료 구독 전환율에 큰 영향을 미치는 요인을 찾기 위해 서베이, GA 분석,
+        인터뷰 등 정성과 정량 조사를 진행하였고 아래와 같은 두 가지 인사이트를
+        찾을 수 있었습니다.
+        <ol>
+          <li> 
+            반납한 유저 중 35.3% 만이 스위처 타이머를 사용한 것에 비해, 유료 구독으로 전환한 유저의 67.5% 가량이 스위처 타이머를 사용하고 있었습니다. 
+          </li>
+          <li>
+            유료 구독 전환 고객 중, 타이머를 사용하고 있는 유저들은 더 비싸고 긴 장기플랜을 선택하고 사용하고 있었습니다. 
+          </li>
+      </p>
+    </div>
+  </div>
+  <!-- Hypothesis -->
+  <div class="wrapper_100 flex-column bg_lightgray">
+    <div class="text_container">
+      <h4>Hypothesis 1</h4>
+      <h2>
+          더 많은 유저가 타이머를 사용한다면
+          유료 구독 전환율이 올라 갈 것이다.
+      </h2>
+      <p>
+        Based on our hypothesis, the product team defined the higher level goals
+        and released two sequential features about Timer.
+      </p>
+    </div>
+  </div>
+  <!--Goals-->
+  <div class="wrapper_50 flex-column">
+    <h2>Higher Level Goals</h2>
+    <div class="flex-column">
+      <div>
+        <h4>📈 Business Goals</h4>
+        <p>
+          To increase the revenue: more Triennial Recurring Revenue as well as
+          the average price of first payment after a free-trial ↗
+        </p>
+      </div>
+      <div>
+        <h4>😣 User Goals</h4>
+        <p>
+          To understand the value Switcher can provide in their daily chores.
+        </p>
+      </div>
+    </div>
+  </div>
+  <!--Solution1: Goal -->
+  <div class="wrapper_50 flex-column">
+    <p><strong>Sprint 1</strong></p>
+    <h2>User Problems</h2>
+    <ol>
+      <li>
+        During the interview, we found out that many users didn't know about the
+        feature at all until we asked them why they didn't use it.
+      </li>
+      <li>
+        Not enough trust in the new connected device. They were worried if Timer
+        didn't work while they cannot be physically next to the device.
+      </li>
+    </ol>
+    <h2>앱 내에서 타이머를 알려주는 가이드 팝업 디자인</h2>
+    <ol>
+      <li>
+        1. 앱 내에서 타이머를 알려주는 가이드 팝업 노출
+      </li>
+      <li>
+          2. 유저가 연속적인 팝업를 통해 타이머를 테스트할 수 있도록 가이드
+      </li>
+    </ol>
+  </div>
+  <div class="wrapper_100 center">
+    <img class="img_60" src="images/switcher/signal_flow.png" />
+  </div>
+  <!--Solution1: Hifi -->
+  <div class="wrapper_100 flex-column bg_lightgray center">
+    <img class="img_50" src="images/switcher/signal1_popup.png" />
+  </div>
+  <div class="wrapper_100 flex-row center bg_black">
+    <div class="flex_quarter flex center">
+      <video playsinline autoplay muted loop class="prototype1 center flex">
+        <source src="images/switcher/prototype.mp4" type="video/mp4" />
+      </video>
+    </div>
+    <div class="flex_quarter flex-start flex-column prototype_description">
+      <h2>Result</h2>
+      <p>
+        Switcher User cannot find sufficient information about timer in the app.
+        After trying a timer card guide, we realized that pop up modal wasn't
+        enough and it is quite intrusive. S
+      </p>
+    </div>
+  </div>
+  <!--Solution2: Goal -->
+  <div class="wrapper_50 flex-column">
+    <p class="sprint_tag">Sprint 2</p>
+    <h2>Interactive Onboarding Guide</h2>
+    <h3>Redefine User Problem</h3>
+    <ol>
+      <li>
+        94.9% of users set a timer as soon as they paired smartphones and
+        Switcher devices for the first time.
+      </li>
+      <li>
+        Correlation between the number of timers user set and the subscription
+        plan type.
+      </li>
+    </ol>
+    <h3>User Problems</h3>
+    <ol>
+      <li>
+        User can think of only one usecase: Turn lights as a wake up alarm
+      </li>
+      <li>
+        User can think about only one usecase: Turn lights as a wake up alarm
+      </li>
+    </ol>
+    <h3>Solution</h3>
+    <ol>
+      <li>
+        Suggest multiple key usecases to help users to setup more than two
+        timers.
+      </li>
+      <li>
+        Help users to set multiple timers at once
+      </li>
+    </ol>
+  </div>
+  <div class="wrapper_100 bg_skyblue cards">
+    <div class="half card">
+      <h4>Morning Alarm</h4>
+      <p>What time do you wake up?</p>
+    </div>
+    <div class="half card">
+      <h2>Empty House</h2>
+      <p>When do you usually leave house?</p>
+    </div>
+    <div class="half card">
+      <h2>Pet</h2>
+      <p>Do you have a pet? Is it afraid of darkness?</p>
+    </div>
+    <div class="half card">
+      <h2>Live Alone</h2>
+      <p>"Do you live alone and scared of dark?"</p>
+    </div>
+    <div class="half card">
+      <h2>Sleep</h2>
+      <p>
+        "When do you usually sleep at night?"
+      </p>
+    </div>
+  </div>
+  <div class="wrapper_100 center flex-row prototypes">
+    <div class="flex_quarter">
+      <img src="images/switcher/protopie1.gif" />
+    </div>
+    <div class="flex_quarter">
+      <img src="images/switcher/protopie2.gif" />
+    </div>
+  </div>
+  <div class="wrapper_100 center">
+    <video playsinline autoplay muted loop class="prototype2">
+      <source src="images/switcher/curation.mp4" type="video/mp4" />
+    </video>
+  </div>
+</body>

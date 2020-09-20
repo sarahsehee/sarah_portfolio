@@ -1,139 +1,125 @@
-
 /* Resume */
 section {
-    margin-bottom: 80px;
+  margin-bottom: 80px;
 }
 
 h2 {
-    font-size: 32px;
-    font-weight: bold;
-    font-family: 'Circular', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    margin-bottom: 12px;
-    color:black;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: "Circular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  margin-bottom: 12px;
+  color: black;
 }
 
-
 .experience {
-    margin-bottom: 32px;
+  margin-bottom: 32px;
 }
 
 .section_title {
-    flex: auto;
-    padding: 16px 4px;
-    font-size: 14px;
-    font-family: 'Space Mono', monospace;
-    border-bottom: 1px solid white;
-    color: black;
-    margin-bottom: 24px;
+  flex: auto;
+  padding: 16px 4px;
+  font-size: 14px;
+  font-family: "Space Mono", monospace;
+  border-bottom: 1px solid white;
+  color: black;
+  margin-bottom: 24px;
 }
 
-
-/* resume */ 
+/* resume */
 
 #resume {
-    display: none;
+  display: none;
 }
-
 
 h4 {
-    font-family: 'Circular', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: black;
-    font-size: 18px;
-    font-weight: 500;
-    margin-bottom: 8px;
+  font-family: "Circular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 8px;
 }
 
-
-.date{
-    font-size: 16px;
-    font-weight: 400;
-    font-family: 'Space Mono', monospace;
-    color: black;
+.date {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Space Mono", monospace;
+  color: black;
 }
-
-
-
-
-
 
 .skill {
-    margin-bottom: 24px;
+  margin-bottom: 24px;
 }
 
-
 .skill_tags {
-    padding-top: 16px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
+  padding-top: 16px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .skill h2 {
-    color: black;;
-    margin-bottom: 16px;
+  color: black;
+  margin-bottom: 16px;
 }
 
 .tag {
-    font-family: 'Space Mono', monospace;
-    font-size: 14px;
-    padding: 6px 16px;
-    box-sizing: border-box;
-    border-radius: 25px;
-    margin: 0px 16px 16px 0;
-    color: black;
-    background-color: white;
+  font-family: "Space Mono", monospace;
+  font-size: 14px;
+  padding: 6px 16px;
+  box-sizing: border-box;
+  border-radius: 25px;
+  margin: 0px 16px 16px 0;
+  color: black;
+  background-color: white;
 }
-
 
 section div p {
-    color:#BBBBBB;
+  color: #bbbbbb;
 }
-
 
 /* projects */
 
 #projects {
-    display: block;
+  display: block;
 }
 
 .project {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    padding: 32px 0px;
-    margin-bottom: 24px;
-    cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 32px 0px;
+  margin-bottom: 24px;
+  cursor: pointer;
 }
 
-.project:hover .project_title{
-    text-decoration: underline;
+.project:hover .project_title {
+  text-decoration: underline;
 }
 
 .project_title {
-    color:black;
+  color: black;
 }
 
 .project_tags {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
-
 
 .project_company {
-    margin-bottom: 16px;
+  margin-bottom: 16px;
 }
 
-
 .empty {
-    height:88px;
+  height: 88px;
 }
 
 .wip {
-    color: grey;
-    cursor: wait;
+  color: grey;
+  cursor: wait;
 }
 
-
-.wip:hover{
-    text-decoration: none;
+.wip:hover {
+  text-decoration: none;
 }

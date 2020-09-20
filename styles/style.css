@@ -1,246 +1,257 @@
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono&display=swap");
 
 :root {
-    --color-highlight: #D9FF6F;
-    --color-coral:  #ff654c;
-    --color-skyblue: #4aa3ff;
-    --color-mint: #8FFFE4;
-    --color-purple: #7203FF;
-    --color-softpink: #f47bff;
-    --color-blue: #68cfff;
-    --color-blue-contrast: #301eff;
-    --color-lightgray: #EFF1F5;
-    --color-navy: #16324e;
-    --color-darkpurple: #26252d;
-    --color-darkgrey: #1b1c1d;
-    --color-dustylilac: #7c81a5;
+  --color-highlight: #d9ff6f;
+  --color-coral: #ff654c;
+  --color-skyblue: #4aa3ff;
+  --color-mint: #8fffe4;
+  --color-purple: #7203ff;
+  --color-softpink: #f47bff;
+  --color-blue: #68cfff;
+  --color-blue-contrast: #301eff;
+  --color-lightgray: #eff1f5;
+  --color-navy: #16324e;
+  --color-darkpurple: #26252d;
+  --color-darkgrey: #1b1c1d;
+  --color-dustylilac: #7c81a5;
 }
 
-html, body {
-    min-height: 100%;
+html,
+body {
+  min-height: 100%;
 }
 
 img {
-    border: none;
+  border: none;
 }
 
 .highlight {
-    color:var(--color-coral);
+  color: var(--color-coral);
 }
 
-body, div, h1, h2, h3, h4, p,span, ul, li,p,button,a, img {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-    -webkit-font-smoothing: antialiased;
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+p,
+span,
+ul,
+li,
+p,
+button,
+a,
+img {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 body {
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    box-sizing: border-box;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  box-sizing: border-box;
 }
 
 ul {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .wrapper {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
 }
 
-
-h1, h2, h3, h4 {
-        font-family: 'Circular', -apple-system, BlinkMacSystemFont, sans-serif;
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Circular", -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 h1 {
-    font-size: 44px;
-    font-weight: 500;
+  font-size: 44px;
+  font-weight: 500;
 }
 
 .title {
-    font-family: 'Space Mono', monospace;
-    color: #727272;
-    font-size: 16px;
-    font-weight: 500;
-    margin-bottom: 8px;
+  font-family: "Space Mono", monospace;
+  color: #727272;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 8px;
 }
 
-
-
 .left {
-    flex: 1;
-    display: grid;
-    grid-template-rows: 1fr 1fr;
-    box-sizing: border-box;
-    overflow: scroll;
+  flex: 1;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  box-sizing: border-box;
+  overflow: scroll;
 }
 
 .left_top {
-    padding: 56px 80px;
-    background-color:var(--color-navy);
-    color: white;
+  padding: 56px 80px;
+  background-color: var(--color-navy);
+  color: white;
 }
 
 .left_bottom {
-    padding: 48px 80px 80px 80px;
-    background-color: var(--color-navy);
-    color: white;
-    display: flex;
-flex-direction: column;
-justify-content: space-between;
+  padding: 48px 80px 80px 80px;
+  background-color: var(--color-navy);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .right {
-    flex: 1;
-    display: grid;
-    grid-template-rows: 1fr 5fr;
-    box-sizing: border-box;
+  flex: 1;
+  display: grid;
+  grid-template-rows: 1fr 5fr;
+  box-sizing: border-box;
 }
 
 .right_top {
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
-    padding: 24px 80px;
-    height: auto;
-    background-color:var(--color-lightgray);
-    box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 80px;
+  height: auto;
+  background-color: var(--color-lightgray);
+  box-sizing: border-box;
 }
 
 .right_bottom {
-    padding: 112px 80px;
-    overflow: scroll;
-    box-sizing: border-box;
-    -ms-overflow-style: none; /* IE and Edge */
-    scrollbar-width: none; /* Firefox */
-    background-color: black;
-    background-color: var(--color-lightgray);
+  padding: 112px 80px;
+  overflow: scroll;
+  box-sizing: border-box;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  background-color: black;
+  background-color: var(--color-lightgray);
 }
 
 .right_bottom::-webkit-scrollbar {
-    display: none;
+  display: none;
 }
-
-
 
 /* Left Fixed Area: Intro */
 
 .name {
-    font-family: 'Circular', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 40px;
-    font-weight:bold;
-    color:white;
-    display: block;
+  font-family: "Circular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  display: block;
 }
-
 
 .description {
-    font-size: 18px;
-    color:white;
-    line-height: 1.8;
-    font-family: 'Space Mono', monospace;
-    font-weight: 400;
-    margin-top:48px;
-    margin-bottom: 48px;
+  font-size: 18px;
+  color: white;
+  line-height: 1.8;
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  margin-top: 48px;
+  margin-bottom: 48px;
 }
-
-
 
 button {
-    border: none;
-    outline: none;
-    text-align: left;
-    cursor: pointer;
-    font-family: 'Circular', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 24px;
-    font-weight: 500;
-    margin-right: 16px;
-    background-color: transparent;
-    color: white;
+  border: none;
+  outline: none;
+  text-align: left;
+  cursor: pointer;
+  font-family: "Circular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+  margin-right: 16px;
+  background-color: transparent;
+  color: white;
 }
 
-.bttn_projects:hover{
-    color: var(--color-coral);
+.bttn_projects:hover {
+  color: var(--color-coral);
 }
 
-.bttn_resume:hover{
-    color: var(--color-coral);
+.bttn_resume:hover {
+  color: var(--color-coral);
 }
 
 .links {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 16px;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 16px;
 }
 
-.links svg{
-    fill: #111213;
-    margin-right: 8px;
+.links svg {
+  fill: #111213;
+  margin-right: 8px;
 }
 
-.github path:hover{
-    fill: blue;
+.github path:hover {
+  fill: blue;
 }
-
 
 .copyrights {
-    font-family: 'Space Mono', monospace;
-    font-size: 12px;
-    color: black;
+  font-family: "Space Mono", monospace;
+  font-size: 12px;
+  color: black;
 }
 
 .intro_bottom {
-margin-top: auto;
-    padding: 8px;
+  margin-top: auto;
+  padding: 8px;
 }
 
-/* Responsive 대응*/ 
+/* Responsive 대응*/
 
-@media screen and (max-width:560px) {
-    .wrapper {
-        flex-direction: column;
-    }
-    .left_bottom {
-        display: none;
-    }
-    body {
-        height: 100vh;
-    }
-    .name {
-        font-size: 28px;
-        height: auto;
-    }
-    .left {
-        flex:none;
-        display: block;
-        height: auto;
-    }
-    .left_top, .left_bottom, .right_top, .right_bottom {
-        padding: 24px 32px;
-    }
+@media screen and (max-width: 560px) {
+  .wrapper {
+    flex-direction: column;
+  }
+  .left_bottom {
+    display: none;
+  }
+  body {
+    height: 100vh;
+  }
+  .name {
+    font-size: 28px;
+    height: auto;
+  }
+  .left {
+    flex: none;
+    display: block;
+    height: auto;
+  }
+  .left_top,
+  .left_bottom,
+  .right_top,
+  .right_bottom {
+    padding: 24px 32px;
+  }
 
-    button {
-        font-size: 18px;
-    }
-    .right_top {
-        justify-content: space-around;
-        background-color: var(--color-navy);
-    }
-    .right {
-        flex: 5;
-        grid-template-rows: 1fr 8fr;
-        overflow: scroll;
-        border-left: none;
-    }
-
+  button {
+    font-size: 18px;
+  }
+  .right_top {
+    justify-content: space-around;
+    background-color: var(--color-navy);
+  }
+  .right {
+    flex: 5;
+    grid-template-rows: 1fr 8fr;
+    overflow: scroll;
+    border-left: none;
+  }
 }
