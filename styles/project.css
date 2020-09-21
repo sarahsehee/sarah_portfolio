@@ -18,7 +18,8 @@ header {
 
 header p {
   font-size: 14px;
-  color: var(--color-lightgray);
+  color: black;
+  background-color: white;
   padding: 4px 16px;
   border-radius: 20px;
   cursor: pointer;
@@ -86,6 +87,10 @@ li {
 .flex2 {
   flex: 2;
   margin-right: 24px;
+}
+
+.intro {
+  margin-bottom: 40px;
 }
 
 .flex_end {
@@ -236,8 +241,6 @@ video {
 
 .half {
   flex: 1;
-  margin: 12px;
-  padding: 24px;
   display: flex;
   flex-direction: column;
 }
@@ -290,6 +293,7 @@ img {
   background-image: url("../images/cloud/piepage_1.png");
   background-position: center;
   background-repeat: no-repeat;
+  margin-bottom: 32px;
 }
 
 .img_pie2 {
@@ -297,6 +301,7 @@ img {
   background-image: url("../images/cloud/piepage_2.png");
   background-position: center;
   background-repeat: no-repeat;
+  margin-bottom: 32px;
 }
 
 .img_space {
@@ -304,6 +309,7 @@ img {
   background-image: url("../images/cloud/pages.png");
   background-position: center;
   background-repeat: no-repeat;
+  margin-bottom: 32px;
 }
 
 .tag_style {
