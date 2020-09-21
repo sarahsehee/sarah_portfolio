@@ -204,6 +204,10 @@ button {
   fill: white;
 }
 
+#github:hover > .github path {
+  fill: var(--color-darkgrey);
+}
+
 #linkedin:hover > .linkedin path {
   fill: var(--color-darkgrey);
 }
