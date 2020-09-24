@@ -392,9 +392,9 @@ img {
   }
 }
 
-@media screen and(max-width: 560px) {
+@media screen and (max-width: 560px) {
   #project_intro {
-    padding-top: ;
+    padding-top: 40px;
   }
   .wrapper_50,
   .wrapper_60,
