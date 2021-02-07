@@ -8,7 +8,7 @@
   --color-purple: #7203ff;
   --color-softpink: #f47bff;
   --color-blue: #68cfff;
-  --color-blue-contrast: #645ad4;
+  --color-blue-contrast: #8cd4ff;
   --color-lightgray: #eff1f5;
   --color-navy: #16324e;
   --color-darkpurple: #26252d;
@@ -151,7 +151,7 @@ h1 {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 40px;
   font-weight: 600;
-  color: white;
+  color: black;
   display: block;
 }
 
