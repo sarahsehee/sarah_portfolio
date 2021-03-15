@@ -1,6 +1,11 @@
 /* Resume */
 section {
-  margin-bottom: 80px;
+  padding: 32px 80px;
+}
+
+.resume,
+.skills {
+  border-bottom: 2px solid black;
 }
 
 h2 {
@@ -18,12 +23,12 @@ h2 {
 
 .section_title {
   flex: auto;
-  padding: 16px 4px;
+  padding: 8px 4px;
   font-size: 14px;
   font-family: "Space Mono", monospace;
-  border-bottom: 1px solid white;
+  font-weight: bold;
+  /*border-bottom: 1px solid white;*/
   color: black;
-  margin-bottom: 24px;
 }
 
 /* resume */
@@ -89,7 +94,7 @@ section div p {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 32px 0px;
+  padding: 80px 80px 20px 80px;
   margin-bottom: 24px;
   cursor: pointer;
 }

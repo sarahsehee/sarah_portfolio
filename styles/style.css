@@ -6,7 +6,7 @@
   --color-skyblue: #4aa3ff;
   --color-mint: #8fffe4;
   --color-purple: #7203ff;
-  --color-softpink: #f47bff;
+  --color-softpink: #f9b2ff;
   --color-blue: #68cfff;
   --color-blue-contrast: #8cd4ff;
   --color-lightgray: #eff1f5;
@@ -68,6 +68,8 @@ ul {
   width: 100%;
   display: flex;
   flex-direction: row;
+  box-sizing: border-box;
+  border: 1px solid black;
 }
 
 h1,
@@ -100,13 +102,15 @@ h1 {
 
 .left_top {
   padding: 56px 80px;
-  background-color: var(--color-blue-contrast);
-  color: white;
+  background-color: white;
+  border: 1px solid black;
 }
 
 .left_bottom {
   padding: 48px 80px 80px 80px;
-  background-color: var(--color-blue-contrast);
+  background-color: white;
+  border: 1px solid black;
+  background-color: var(--color-softpink);
   color: white;
   display: flex;
   flex-direction: column;
@@ -121,23 +125,23 @@ h1 {
 }
 
 .right_top {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 24px 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
   height: auto;
-  background-color: var(--color-darkgrey);
+  background-color: white;
+  border: 1px solid black;
   box-sizing: border-box;
 }
 
 .right_bottom {
-  padding: 112px 80px;
+  /*padding: 64px 80px;*/
   overflow: scroll;
   box-sizing: border-box;
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
   background-color: black;
   background-color: var(--color-lightgray);
+  border: 1px solid black;
 }
 
 .right_bottom::-webkit-scrollbar {
@@ -166,25 +170,31 @@ h1 {
 }
 
 button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   border: none;
   outline: none;
-  text-align: left;
+  text-align: center;
   cursor: pointer;
   font-family: "Circular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 24px;
   font-weight: 500;
-  margin-right: 16px;
   background-color: transparent;
-  color: white;
+  color: black;
+}
+
+.bttn_projects {
+  border-right: 2px solid black;
 }
 
 .bttn_projects:hover {
-  color: var(--color-highlight);
+  text-decoration: underline;
 }
 
 .bttn_resume:hover {
-  color: var(--color-highlight);
+  text-decoration: underline;
 }
 
 .links {
@@ -250,8 +260,7 @@ button {
   }
   .left_top,
   .left_bottom,
-  .right_top,
-  .right_bottom {
+  button {
     padding: 24px 32px;
   }
 
@@ -260,7 +269,7 @@ button {
   }
   .right_top {
     justify-content: space-around;
-    background-color: var(--color-darkgrey);
+    /*background-color: var(--color-darkgrey);*/
   }
   .right {
     flex: 5;
