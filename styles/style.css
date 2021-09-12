@@ -134,7 +134,7 @@ h1 {
   box-sizing: border-box;
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
-  background-color: black;
+  background-color: white;
 }
 
 .right_bottom::-webkit-scrollbar {
@@ -218,7 +218,7 @@ button {
 .copyrights {
   font-family: "Space Mono", monospace;
   font-size: 12px;
-  color: var(--color-lightgray);
+  color: black;
 }
 
 .intro_bottom {
