@@ -102,13 +102,11 @@ h1 {
 .left_top {
   padding: 56px 80px;
   background-color: white;
-  border: 1px solid black;
 }
 
 .left_bottom {
   padding: 48px 80px 80px 80px;
   background-color: white;
-  border: 1px solid black;
   background-color: var(--color-softpink);
   color: white;
   display: flex;
