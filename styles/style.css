@@ -69,7 +69,6 @@ ul {
   display: flex;
   flex-direction: row;
   box-sizing: border-box;
-  border: 1px solid black;
 }
 
 h1,
@@ -103,15 +102,12 @@ h1 {
 .left_top {
   padding: 56px 80px;
   background-color: white;
-  border: 1px solid black;
 }
 
 .left_bottom {
   padding: 48px 80px 80px 80px;
   background-color: white;
-  border: 1px solid black;
-  background-color: var(--color-softpink);
-  color: white;
+  color: black;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -129,7 +125,6 @@ h1 {
   grid-template-columns: 1fr 1fr;
   height: auto;
   background-color: white;
-  border: 1px solid black;
   box-sizing: border-box;
 }
 
@@ -139,9 +134,7 @@ h1 {
   box-sizing: border-box;
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
-  background-color: black;
-  background-color: var(--color-lightgray);
-  border: 1px solid black;
+  background-color: white;
 }
 
 .right_bottom::-webkit-scrollbar {
@@ -185,10 +178,6 @@ button {
   color: black;
 }
 
-.bttn_projects {
-  border-right: 2px solid black;
-}
-
 .bttn_projects:hover {
   text-decoration: underline;
 }
@@ -211,7 +200,7 @@ button {
 .dribbble path,
 .github path,
 .linkedin path {
-  fill: white;
+  fill: black;
 }
 
 #github:hover > .github path {
@@ -229,7 +218,7 @@ button {
 .copyrights {
   font-family: "Space Mono", monospace;
   font-size: 12px;
-  color: var(--color-lightgray);
+  color: black;
 }
 
 .intro_bottom {
