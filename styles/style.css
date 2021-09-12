@@ -126,7 +126,6 @@ h1 {
   grid-template-columns: 1fr 1fr;
   height: auto;
   background-color: white;
-  border: 1px solid black;
   box-sizing: border-box;
 }
 
@@ -138,7 +137,6 @@ h1 {
   scrollbar-width: none; /* Firefox */
   background-color: black;
   background-color: var(--color-lightgray);
-  border: 1px solid black;
 }
 
 .right_bottom::-webkit-scrollbar {
@@ -208,7 +206,7 @@ button {
 .dribbble path,
 .github path,
 .linkedin path {
-  fill: white;
+  fill: black;
 }
 
 #github:hover > .github path {
