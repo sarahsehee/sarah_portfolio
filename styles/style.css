@@ -98,6 +98,7 @@ h1 {
   grid-template-rows: 1fr 1fr;
   box-sizing: border-box;
   overflow: scroll;
+  border-right: 1px solid black;
 }
 
 .left_top {
@@ -118,6 +119,7 @@ h1 {
   flex: 1;
   display: grid;
   grid-template-rows: 1fr 5fr;
+  border-left: 1px solid black;
   box-sizing: border-box;
 }
 
