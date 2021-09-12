@@ -128,6 +128,21 @@ section div p {
   text-decoration: none;
 }
 
+.pink {
+  color: black;
+  background-color: var(--color-softpink);
+}
+
+.blue {
+  color: black;
+  background-color: var(--color-blue-contrast);
+}
+
+.yellow {
+  color: black;
+  background-color: var(--color-highlight);
+}
+
 @media screen and (max-width: 560px) {
   .project,
   section {
