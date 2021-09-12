@@ -1,6 +1,6 @@
 $(document).ready(function() {
   const ButtonProject = document.getElementById("lk_projects");
-  ButtonProject.style.backgroundColor = "#93ff8c";
+  ButtonProject.style.textDecoration = "underline";
 });
 
 function show(section) {
@@ -14,12 +14,20 @@ function show(section) {
   if (section === "resume") {
     Projects.style.display = "none";
     Resume.style.display = "block";
+    ButtonProject.style.textDecoration = "none";
+    ButtonResume.style.textDecoration = "underline";
+    /*
     ButtonProject.style.backgroundColor = "white";
     ButtonResume.style.backgroundColor = "#93ff8c";
+    */
   } else if (section === "projects") {
     Projects.style.display = "block";
     Resume.style.display = "none";
+    ButtonResume.style.textDecoration = "none";
+    ButtonProject.style.textDecoration = "underline";
+    /*
     ButtonProject.style.backgroundColor = "#93ff8c";
     ButtonResume.style.backgroundColor = "white";
+    */
   }
 }
