@@ -129,6 +129,7 @@ h1 {
   height: auto;
   background-color: white;
   box-sizing: border-box;
+  border-bottom: 2px solid black;
 }
 
 .right_bottom {
@@ -179,6 +180,10 @@ button {
   font-weight: 500;
   background-color: transparent;
   color: black;
+}
+
+.bttn_projects {
+  border-right: 2px solid black;
 }
 
 .bttn_projects:hover {
